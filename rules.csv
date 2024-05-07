@@ -1,0 +1,63 @@
+antecedents,consequents,antecedent support,consequent support,support,confidence,lift,leverage,conviction,zhangs_metric
+frozenset({'Shoes'}),frozenset({'Hat'}),0.8,0.6,0.6,0.7499999999999999,1.2499999999999998,0.12,1.5999999999999994,1.0000000000000002
+frozenset({'Hat'}),frozenset({'Shoes'}),0.6,0.8,0.6,1.0,1.25,0.12,inf,0.5
+frozenset({'Sunglasses'}),frozenset({'Hat'}),0.8,0.6,0.6,0.7499999999999999,1.2499999999999998,0.12,1.5999999999999994,1.0000000000000002
+frozenset({'Hat'}),frozenset({'Sunglasses'}),0.6,0.8,0.6,1.0,1.25,0.12,inf,0.5
+frozenset({'Watch'}),frozenset({'Hat'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf,1.0
+frozenset({'Hat'}),frozenset({'Watch'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf,1.0
+frozenset({'Shirt'}),frozenset({'Pants'}),0.8,0.6,0.6,0.7499999999999999,1.2499999999999998,0.12,1.5999999999999994,1.0000000000000002
+frozenset({'Pants'}),frozenset({'Shirt'}),0.6,0.8,0.6,1.0,1.25,0.12,inf,0.5
+frozenset({'Shirt'}),frozenset({'Shoes'}),0.8,0.8,0.6,0.7499999999999999,0.9374999999999998,-0.04000000000000015,0.7999999999999995,-0.25000000000000083
+frozenset({'Shoes'}),frozenset({'Shirt'}),0.8,0.8,0.6,0.7499999999999999,0.9374999999999998,-0.04000000000000015,0.7999999999999995,-0.25000000000000083
+frozenset({'Shirt'}),frozenset({'Sunglasses'}),0.8,0.8,0.6,0.7499999999999999,0.9374999999999998,-0.04000000000000015,0.7999999999999995,-0.25000000000000083
+frozenset({'Sunglasses'}),frozenset({'Shirt'}),0.8,0.8,0.6,0.7499999999999999,0.9374999999999998,-0.04000000000000015,0.7999999999999995,-0.25000000000000083
+frozenset({'Shoes'}),frozenset({'Sunglasses'}),0.8,0.8,0.8,1.0,1.25,0.15999999999999992,inf,0.9999999999999997
+frozenset({'Sunglasses'}),frozenset({'Shoes'}),0.8,0.8,0.8,1.0,1.25,0.15999999999999992,inf,0.9999999999999997
+frozenset({'Shoes'}),frozenset({'Watch'}),0.8,0.6,0.6,0.7499999999999999,1.2499999999999998,0.12,1.5999999999999994,1.0000000000000002
+frozenset({'Watch'}),frozenset({'Shoes'}),0.6,0.8,0.6,1.0,1.25,0.12,inf,0.5
+frozenset({'Watch'}),frozenset({'Sunglasses'}),0.6,0.8,0.6,1.0,1.25,0.12,inf,0.5
+frozenset({'Sunglasses'}),frozenset({'Watch'}),0.8,0.6,0.6,0.7499999999999999,1.2499999999999998,0.12,1.5999999999999994,1.0000000000000002
+"frozenset({'Shoes', 'Sunglasses'})",frozenset({'Hat'}),0.8,0.6,0.6,0.7499999999999999,1.2499999999999998,0.12,1.5999999999999994,1.0000000000000002
+"frozenset({'Shoes', 'Hat'})",frozenset({'Sunglasses'}),0.6,0.8,0.6,1.0,1.25,0.12,inf,0.5
+"frozenset({'Sunglasses', 'Hat'})",frozenset({'Shoes'}),0.6,0.8,0.6,1.0,1.25,0.12,inf,0.5
+frozenset({'Shoes'}),"frozenset({'Sunglasses', 'Hat'})",0.8,0.6,0.6,0.7499999999999999,1.2499999999999998,0.12,1.5999999999999994,1.0000000000000002
+frozenset({'Sunglasses'}),"frozenset({'Shoes', 'Hat'})",0.8,0.6,0.6,0.7499999999999999,1.2499999999999998,0.12,1.5999999999999994,1.0000000000000002
+frozenset({'Hat'}),"frozenset({'Shoes', 'Sunglasses'})",0.6,0.8,0.6,1.0,1.25,0.12,inf,0.5
+"frozenset({'Shoes', 'Watch'})",frozenset({'Hat'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf,1.0
+"frozenset({'Shoes', 'Hat'})",frozenset({'Watch'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf,1.0
+"frozenset({'Watch', 'Hat'})",frozenset({'Shoes'}),0.6,0.8,0.6,1.0,1.25,0.12,inf,0.5
+frozenset({'Shoes'}),"frozenset({'Watch', 'Hat'})",0.8,0.6,0.6,0.7499999999999999,1.2499999999999998,0.12,1.5999999999999994,1.0000000000000002
+frozenset({'Watch'}),"frozenset({'Shoes', 'Hat'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf,1.0
+frozenset({'Hat'}),"frozenset({'Shoes', 'Watch'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf,1.0
+"frozenset({'Watch', 'Sunglasses'})",frozenset({'Hat'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf,1.0
+"frozenset({'Watch', 'Hat'})",frozenset({'Sunglasses'}),0.6,0.8,0.6,1.0,1.25,0.12,inf,0.5
+"frozenset({'Sunglasses', 'Hat'})",frozenset({'Watch'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf,1.0
+frozenset({'Watch'}),"frozenset({'Sunglasses', 'Hat'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf,1.0
+frozenset({'Sunglasses'}),"frozenset({'Watch', 'Hat'})",0.8,0.6,0.6,0.7499999999999999,1.2499999999999998,0.12,1.5999999999999994,1.0000000000000002
+frozenset({'Hat'}),"frozenset({'Watch', 'Sunglasses'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf,1.0
+"frozenset({'Shirt', 'Shoes'})",frozenset({'Sunglasses'}),0.6,0.8,0.6,1.0,1.25,0.12,inf,0.5
+"frozenset({'Shirt', 'Sunglasses'})",frozenset({'Shoes'}),0.6,0.8,0.6,1.0,1.25,0.12,inf,0.5
+"frozenset({'Shoes', 'Sunglasses'})",frozenset({'Shirt'}),0.8,0.8,0.6,0.7499999999999999,0.9374999999999998,-0.04000000000000015,0.7999999999999995,-0.25000000000000083
+frozenset({'Shirt'}),"frozenset({'Shoes', 'Sunglasses'})",0.8,0.8,0.6,0.7499999999999999,0.9374999999999998,-0.04000000000000015,0.7999999999999995,-0.25000000000000083
+frozenset({'Shoes'}),"frozenset({'Shirt', 'Sunglasses'})",0.8,0.6,0.6,0.7499999999999999,1.2499999999999998,0.12,1.5999999999999994,1.0000000000000002
+frozenset({'Sunglasses'}),"frozenset({'Shirt', 'Shoes'})",0.8,0.6,0.6,0.7499999999999999,1.2499999999999998,0.12,1.5999999999999994,1.0000000000000002
+"frozenset({'Shoes', 'Sunglasses'})",frozenset({'Watch'}),0.8,0.6,0.6,0.7499999999999999,1.2499999999999998,0.12,1.5999999999999994,1.0000000000000002
+"frozenset({'Shoes', 'Watch'})",frozenset({'Sunglasses'}),0.6,0.8,0.6,1.0,1.25,0.12,inf,0.5
+"frozenset({'Watch', 'Sunglasses'})",frozenset({'Shoes'}),0.6,0.8,0.6,1.0,1.25,0.12,inf,0.5
+frozenset({'Shoes'}),"frozenset({'Watch', 'Sunglasses'})",0.8,0.6,0.6,0.7499999999999999,1.2499999999999998,0.12,1.5999999999999994,1.0000000000000002
+frozenset({'Sunglasses'}),"frozenset({'Shoes', 'Watch'})",0.8,0.6,0.6,0.7499999999999999,1.2499999999999998,0.12,1.5999999999999994,1.0000000000000002
+frozenset({'Watch'}),"frozenset({'Shoes', 'Sunglasses'})",0.6,0.8,0.6,1.0,1.25,0.12,inf,0.5
+"frozenset({'Shoes', 'Sunglasses', 'Watch'})",frozenset({'Hat'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf,1.0
+"frozenset({'Shoes', 'Sunglasses', 'Hat'})",frozenset({'Watch'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf,1.0
+"frozenset({'Shoes', 'Watch', 'Hat'})",frozenset({'Sunglasses'}),0.6,0.8,0.6,1.0,1.25,0.12,inf,0.5
+"frozenset({'Watch', 'Sunglasses', 'Hat'})",frozenset({'Shoes'}),0.6,0.8,0.6,1.0,1.25,0.12,inf,0.5
+"frozenset({'Shoes', 'Sunglasses'})","frozenset({'Watch', 'Hat'})",0.8,0.6,0.6,0.7499999999999999,1.2499999999999998,0.12,1.5999999999999994,1.0000000000000002
+"frozenset({'Shoes', 'Watch'})","frozenset({'Sunglasses', 'Hat'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf,1.0
+"frozenset({'Shoes', 'Hat'})","frozenset({'Watch', 'Sunglasses'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf,1.0
+"frozenset({'Watch', 'Sunglasses'})","frozenset({'Shoes', 'Hat'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf,1.0
+"frozenset({'Sunglasses', 'Hat'})","frozenset({'Shoes', 'Watch'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf,1.0
+"frozenset({'Watch', 'Hat'})","frozenset({'Shoes', 'Sunglasses'})",0.6,0.8,0.6,1.0,1.25,0.12,inf,0.5
+frozenset({'Shoes'}),"frozenset({'Watch', 'Sunglasses', 'Hat'})",0.8,0.6,0.6,0.7499999999999999,1.2499999999999998,0.12,1.5999999999999994,1.0000000000000002
+frozenset({'Sunglasses'}),"frozenset({'Shoes', 'Watch', 'Hat'})",0.8,0.6,0.6,0.7499999999999999,1.2499999999999998,0.12,1.5999999999999994,1.0000000000000002
+frozenset({'Watch'}),"frozenset({'Shoes', 'Sunglasses', 'Hat'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf,1.0
+frozenset({'Hat'}),"frozenset({'Shoes', 'Sunglasses', 'Watch'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf,1.0
